@@ -223,6 +223,7 @@ declare namespace gapi.client.calendar {
     };
     primary?: boolean;
     deleted?: boolean;
+    fields?: string;
   }
 
   export class calendars {
